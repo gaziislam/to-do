@@ -20,7 +20,7 @@ function App() {
     setTask(
       task.filter((d) => {
         d !== e;
-        console.log(d);
+        console.log("Hello", d);
         console.log("first", e);
         console.log("Hellooo", d !== e);
       })
