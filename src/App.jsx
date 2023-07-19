@@ -19,13 +19,10 @@ function App() {
   const handleDelete = (e) => {
     setTask(
       task.filter((d) => {
-        d !== e;
-        console.log("Hello", d);
-        console.log("first", e);
-        console.log("Hellooo", d !== e);
+        return d !== e;
       })
     );
-    console.log();
+
     // console.log(task);
   };
 
